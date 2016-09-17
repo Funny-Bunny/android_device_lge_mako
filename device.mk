@@ -268,7 +268,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qualcomm.sensors.smd=true
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-	persist.sys.usb.config=mtp
+	persist.sys.usb.config=mtp,adb
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	media.stagefright.legacyencoder=true \
