@@ -62,6 +62,10 @@ TARGET_BOARD_INFO_FILE := device/lge/mako/board-info.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/mako/bluetooth
 
 TARGET_NEEDS_GCC_LIBC := true
+
+# Don't create a block based package
+BLOCK_BASED_OTA := false
+
 # FIXME: HOSTAPD-derived wifi driver
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
